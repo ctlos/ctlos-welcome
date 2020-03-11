@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Welcome Screen
+Comment=
+Exec=/usr/bin/ctlos-welcome
+Icon=/usr/share/ctlos-welcome/img/ctlos-welcome.png
+Terminal=false
+StartupNotify=true
+Categories=System;

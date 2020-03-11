@@ -1,1 +1,3 @@
-# ctlos-welcome
+# Ctlos welcome screen
+
+Fork Manjaro welcome screen
