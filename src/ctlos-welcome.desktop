@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Encoding=UTF-8
-Name=Welcome Screen
+Name=Welcome Ctlos
 Comment=
 Exec=/usr/bin/ctlos-welcome
 Icon=/usr/share/ctlos-welcome/img/ctlos-welcome.png
