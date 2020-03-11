@@ -339,15 +339,15 @@ class Ui_WelcomeScreen(object):
 
     def retranslateUi(self, WelcomeScreen):
         _translate = QtCore.QCoreApplication.translate
-        WelcomeScreen.setWindowTitle(_translate("WelcomeScreen", "Welcome Screen"))
+        WelcomeScreen.setWindowTitle(_translate("WelcomeScreen", "Welcome Ctlos Linux"))
         self.wikiButton.setText(_translate("WelcomeScreen", "Wiki"))
-        self.linksLabel.setText(_translate("WelcomeScreen", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600;\">LINKS :</span></p></body></html>"))
+        self.linksLabel.setText(_translate("WelcomeScreen", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600;\">Ссылки/LINKS:</span></p></body></html>"))
         self.donateButton.setText(_translate("WelcomeScreen", "Donate"))
-        self.chatButton.setText(_translate("WelcomeScreen", "Chat room"))
-        self.installationLabel.setText(_translate("WelcomeScreen", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600;\">INSTALLATION :</span></p></body></html>"))
-        self.installButton.setText(_translate("WelcomeScreen", "Install Now"))
-        self.welcomeLabel.setText(_translate("WelcomeScreen", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt; font-weight:600;\">Welcome to ctlos GNU/Linux !</span></p></body></html>"))
-        self.forumsButton.setText(_translate("WelcomeScreen", "Forums"))
+        self.chatButton.setText(_translate("WelcomeScreen", "Chat"))
+        self.installationLabel.setText(_translate("WelcomeScreen", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600;\">INSTALL:</span></p></body></html>"))
+        self.installButton.setText(_translate("WelcomeScreen", "Install"))
+        self.welcomeLabel.setText(_translate("WelcomeScreen", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt; font-weight:600;\">Ctlos Linux start</span></p></body></html>"))
+        self.forumsButton.setText(_translate("WelcomeScreen", "Vk Ctlos"))
         self.languageSelector.setCurrentText(_translate("WelcomeScreen", "English"))
         self.languageSelector.setItemText(0, _translate("WelcomeScreen", "Albanian"))
         self.languageSelector.setItemText(1, _translate("WelcomeScreen", "Arabic"))
@@ -395,10 +395,10 @@ class Ui_WelcomeScreen(object):
         self.languageSelector.setItemText(43, _translate("WelcomeScreen", "Turkish"))
         self.languageSelector.setItemText(44, _translate("WelcomeScreen", "Ukrainian"))
         self.languageSelector.setItemText(45, _translate("WelcomeScreen", "Vietnamese (Viet Nam)"))
-        self.launchAtStartCheck.setText(_translate("WelcomeScreen", "Launch at start"))
-        self.helpButton.setText(_translate("WelcomeScreen", "Help us"))
+        self.launchAtStartCheck.setText(_translate("WelcomeScreen", "add autostart"))
+        self.helpButton.setText(_translate("WelcomeScreen", "Github"))
         self.newsButton.setText(_translate("WelcomeScreen", "News"))
-        self.infoLabel.setText(_translate("WelcomeScreen", "<html><head/><body><p align=\"center\">Welcome to ctlos GNU/Linux. The links below will help you get started with ctlos. So enjoy the experience, and don\'t hesitate to send us your feedback.</p></body></html>"))
+        self.infoLabel.setText(_translate("WelcomeScreen", "<html><head/><body><p align=\"center\">Добро пожаловать в Ctlos Linux. Ссылки ниже помогут вам начать работу. Наслаждайтесь и не стесняйтесь, присылайть нам свои отзывы.</p></body></html>"))
 
 
 if __name__ == "__main__":
