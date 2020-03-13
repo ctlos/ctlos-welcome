@@ -398,7 +398,7 @@ class Ui_WelcomeScreen(object):
         self.launchAtStartCheck.setText(_translate("WelcomeScreen", "add autostart"))
         self.helpButton.setText(_translate("WelcomeScreen", "Github"))
         self.newsButton.setText(_translate("WelcomeScreen", "News"))
-        self.infoLabel.setText(_translate("WelcomeScreen", "<html><head/><body><p align=\"center\">Добро пожаловать в Ctlos Linux. Ссылки ниже помогут вам начать работу. Наслаждайтесь и не стесняйтесь, присылайть нам свои отзывы.</p></body></html>"))
+        self.infoLabel.setText(_translate("WelcomeScreen", "<html><head/><body><p align=\"center\">Добро пожаловать в Ctlos Linux. Ссылки ниже помогут вам начать работу. Наслаждайтесь и не стесняйтесь, присылать нам свои отзывы.</p></body></html>"))
 
 
 if __name__ == "__main__":
