@@ -1,7 +1,9 @@
+# Maintainer: Alex Creio <ctlos@protonmail.com>
+
 pkgname=ctlos-welcome
 pkgdesc='Welcome screen for Ctlos'
-pkgver=1.0.2
-pkgrel=1
+pkgver=1.1
+pkgrel=2
 arch=('any')
 url="https://github.com/ctlos/ctlos-welcome"
 license=('GPL')
