@@ -8,7 +8,7 @@ import subprocess
 class Ui_WelcomeScreen(object):
     ######################### CUSTOM ACTIONS ##########################
     def forumButtonAction(self):
-        webbrowser.open("https://vk.com/ctlos")
+        webbrowser.open("https://forum.ctlos.ru")
     def chatButtonAction(self):
         webbrowser.open("https://tele.click/ctlos")
     def donateButtonAction(self):
@@ -18,7 +18,7 @@ class Ui_WelcomeScreen(object):
     def newsButtonAction(self):
         webbrowser.open("https://ctlos.github.io/wiki/changelog")
     def helpButtonAction(self):
-        webbrowser.open("https://github.com/ctlos")
+        webbrowser.open("https://github.com/ctlos/ctlosiso/issues")
     def installButtonAction(self):
         subprocess.Popen(["calamares_polkit"])
     def startCheckAction(self):
@@ -296,11 +296,11 @@ class Ui_WelcomeScreen(object):
         self.installationLabel.setText(_translate("WelcomeScreen", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600;\">INSTALL CTLOS:</span></p></body></html>"))
         self.installButton.setText(_translate("WelcomeScreen", "Install"))
         self.welcomeLabel.setText(_translate("WelcomeScreen", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt; font-weight:600;\">Ctlos Linux start</span></p></body></html>"))
-        self.forumsButton.setText(_translate("WelcomeScreen", "Vk Ctlos"))
+        self.forumsButton.setText(_translate("WelcomeScreen", "Forum"))
         self.launchAtStartCheck.setText(_translate("WelcomeScreen", "AutoStart"))
-        self.helpButton.setText(_translate("WelcomeScreen", "Github"))
+        self.helpButton.setText(_translate("WelcomeScreen", "Bugs"))
         self.newsButton.setText(_translate("WelcomeScreen", "News"))
-        self.infoLabel.setText(_translate("WelcomeScreen", "<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">Добро пожаловать в Ctlos Linux. Ссылки ниже помогут вам начать работу. Наслаждайтесь и не стесняйтесь, присылать нам свои отзывы.</span></p></body></html>"))
+        self.infoLabel.setText(_translate("WelcomeScreen", "<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">Добро пожаловать в Ctlos Linux. Ссылки ниже помогут вам начать работу. Наслаждайтесь и не стесняйтесь присылать нам свои отзывы.</span></p></body></html>"))
 
 
 if __name__ == "__main__":
