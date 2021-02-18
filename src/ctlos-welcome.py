@@ -10,7 +10,7 @@ class Ui_WelcomeScreen(object):
     def forumButtonAction(self):
         webbrowser.open("https://forum.ctlos.ru")
     def chatButtonAction(self):
-        webbrowser.open("https://tele.click/ctlos")
+        webbrowser.open("https://telegram.me/ctlos")
     def donateButtonAction(self):
         webbrowser.open("https://ctlos.github.io/donat")
     def wikiButtonAction(self):
