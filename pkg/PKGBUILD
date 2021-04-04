@@ -2,7 +2,7 @@
 
 pkgname=ctlos-welcome
 pkgdesc='Welcome screen for Ctlos'
-pkgver=2.1.1
+pkgver=2.2.0
 pkgrel=1
 arch=('any')
 url="https://github.com/ctlos/ctlos-welcome"
