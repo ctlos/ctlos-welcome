@@ -223,7 +223,7 @@ class Ui_WelcomeScreen(object):
         self.lineTop.setFrameShape(QtWidgets.QFrame.HLine)
         self.lineTop.setFrameShadow(QtWidgets.QFrame.Sunken)
         self.lineTop.setObjectName("lineTop")
-        self.mainGrid.addWidget(self.lineTop, 8, 0, 1, 1)
+        self.mainGrid.addWidget(self.lineTop, 8, 1, 1, 1)
         self.lineTop.setVisible(True)
 
         ## disable ctlos-helper liveuser
