@@ -8,7 +8,7 @@ import subprocess
 class Ui_WelcomeScreen(object):
     ######################### CUSTOM ACTIONS ##########################
     def forumButtonAction(self):
-        webbrowser.open("https://forum.ctlos.ru")
+        webbrowser.open("https://github.com/orgs/ctlos/discussions")
     def chatButtonAction(self):
         webbrowser.open("https://telegram.me/ctlos")
     def donateButtonAction(self):
