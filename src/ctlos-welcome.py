@@ -247,6 +247,8 @@ class Ui_WelcomeScreen(object):
         ## disable ctlos-helper liveuser
         if os.path.isfile("/usr/bin/calamares_polkit"):
             self.helperButton.setVisible(False)
+        if not os.path.isfile("/usr/bin/ctlos-helper"):
+            self.helperButton.setVisible(False)
 
         self.mainGrid.addWidget(self.helperButton, 9, 1, 1, 1)
 
